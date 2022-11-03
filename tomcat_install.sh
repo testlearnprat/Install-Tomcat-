@@ -1,9 +1,9 @@
 #!/bin/bash
 
 echo "Installing JAVA"
-sudo yum install java-11-openjdk-devel
+sudo yum install -y java-11-openjdk-devel 1>/dev/null
 echo "Installed JAVA"
-sudo yum install wget
+sudo yum install -y wget 1>/dev/null
 echo "Installing Tomcat"
 cd
 rm -rf apache-tomcat*
