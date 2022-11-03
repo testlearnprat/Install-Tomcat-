@@ -3,6 +3,7 @@
 echo "Installing JAVA"
 sudo yum install java-11-openjdk-devel
 echo "Installed JAVA"
+sudo yum install wget
 echo "Installing Tomcat"
 cd
 wget https://dlcdn.apache.org/tomcat/tomcat-9/v9.0.68/bin/apache-tomcat-9.0.68.tar.gz
