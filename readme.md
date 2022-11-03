@@ -1,3 +1,3 @@
-clone the t9 repo in /home/ec2-user/
-Go inside T9 Directory
+clone the repo in /home/ec2-user/
+Go inside Install-Tomcat- Directory
 Run sh tomcat_install.sh 
